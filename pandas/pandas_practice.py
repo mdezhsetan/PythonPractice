@@ -82,7 +82,7 @@ my_data = pd.read_csv('pokemon_data.csv')
 
 
 
-my_data['count'] = 1
-new_my_data = my_data.groupby(['Type 1', 'Type 2']).count()['count']
-print(new_my_data)
-new_my_data.to_csv('new_my_data.csv')
+# my_data['count'] = 1
+# new_my_data = my_data.groupby(['Type 1', 'Type 2']).count()['count']
+# print(new_my_data)
+# new_my_data.to_csv('new_my_data.csv')
